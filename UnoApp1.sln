@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{0984047D-4B5F-4DF4-9E84-98413AFF219B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{ACDBE96A-683D-4B4B-B817-3D45CAA1694B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnoApp1", "UnoApp1\UnoApp1\UnoApp1.csproj", "{EAA77CA0-4941-471E-A0EE-BA6EB8B0B880}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnoApp1.Shared", "UnoApp1\UnoApp1.Shared\UnoApp1.Shared.csproj", "{6AD7E807-C953-492B-9AC8-71E075AD8E5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnoApp1.Mobile", "UnoApp1\UnoApp1.Mobile\UnoApp1.Mobile.csproj", "{FCB6D2DE-F41D-47E1-A297-8F15D9E7B56E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F1CB2A1F-DC4A-4DE3-8B00-C7C56CC6B186}"
+	ProjectSection(SolutionItems) = preProject
+		UnoApp1\.gitignore = UnoApp1\.gitignore
+		UnoApp1\Directory.Build.props = UnoApp1\Directory.Build.props
+		UnoApp1\Directory.Build.targets = UnoApp1\Directory.Build.targets
+		UnoApp1\Directory.Packages.props = UnoApp1\Directory.Packages.props
+		UnoApp1\solution-config.props.sample = UnoApp1\solution-config.props.sample
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAA77CA0-4941-471E-A0EE-BA6EB8B0B880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA77CA0-4941-471E-A0EE-BA6EB8B0B880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA77CA0-4941-471E-A0EE-BA6EB8B0B880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA77CA0-4941-471E-A0EE-BA6EB8B0B880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD7E807-C953-492B-9AC8-71E075AD8E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD7E807-C953-492B-9AC8-71E075AD8E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD7E807-C953-492B-9AC8-71E075AD8E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD7E807-C953-492B-9AC8-71E075AD8E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB6D2DE-F41D-47E1-A297-8F15D9E7B56E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB6D2DE-F41D-47E1-A297-8F15D9E7B56E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB6D2DE-F41D-47E1-A297-8F15D9E7B56E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FCB6D2DE-F41D-47E1-A297-8F15D9E7B56E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB6D2DE-F41D-47E1-A297-8F15D9E7B56E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB6D2DE-F41D-47E1-A297-8F15D9E7B56E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACDBE96A-683D-4B4B-B817-3D45CAA1694B} = {0984047D-4B5F-4DF4-9E84-98413AFF219B}
+		{EAA77CA0-4941-471E-A0EE-BA6EB8B0B880} = {0984047D-4B5F-4DF4-9E84-98413AFF219B}
+		{6AD7E807-C953-492B-9AC8-71E075AD8E5E} = {ACDBE96A-683D-4B4B-B817-3D45CAA1694B}
+		{FCB6D2DE-F41D-47E1-A297-8F15D9E7B56E} = {ACDBE96A-683D-4B4B-B817-3D45CAA1694B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9B6C9CB-2B8F-4165-BFE1-08CBECCE4A8C}
+	EndGlobalSection
+EndGlobal
